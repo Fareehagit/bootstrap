@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@900&family=Space+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .outer-panel {
+        width: 100%;
+        padding: 2% 0; /* Adjusted padding for mobile responsiveness */
+        background-color: rgba(0, 0, 0, 0.059);
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner-panel {
+        background-color: rgba(255, 255, 255, 0.55);
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.39);
+    }
+
+    .image {
+        max-width: 100%; /* Make images responsive */
+        display: block;
+        margin: auto;
+        background-color: rgba(143, 131, 131, 0.363);
+        margin: 3px 6px;
+        padding: 35px;
+    }
+
+    .bg {
+        background-color: black;
+        color: white;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        margin: 2%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        padding-top: 12px;
+    }
+
+    .primary {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    .secondary {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 2.8rem;
+    }
+
+    .size {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 1.8rem;
+    }
+
+    .txt {
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    @media screen and (max-width: 375px) {
+        .txt-align {
+            font-size: 1.5rem;
+        }
+
+        .outer-panel {
+            padding: 4% 8%;
+        }
+
+        .inner-panel {
+            padding: 4%;
+        }
+
+        .image {
+            padding: 15px; /* Adjust image padding for mobile */
+        }
+    }
+</style>
+
+<body>
+    <div class="container ">
+        <div class="text-center outer-panel">
+            <div class="inner-panel">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="logo.webp" alt="" class="mb-3 mt-3 img-fluid">
+                    </div>
+                    <div class="col-md-12">
+                        <img src="bg_4.avif" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <h2 class="mb-5 secondary text-align">IT Consulting & Services</h2>
+                        <p class="text-center primary">Hi there, thank you for receiving this email and deciding to review KIT-Consultancy and IT
+                            Services to find out what we can offer you,</p>
+                        <p class="mb-5 text-center primary">to make your IT and Network service set up resilient, efficient, managed, and up
+                            to date to the latest technologies used as best practices in the industry.</p>
+                    </div>
+                </div>
+                <hr style="border: 2px solid rgba(0, 0, 0, 0.952)">
+                <!-- services section starts -->
+                <div class="row p-4 d-flex justify-content-center align-items-center">
+                    <div class="col-md-6 ">
+                        <div class="">
+                            <p class=" text-center primary"><i>Here is our awesome portfolio</i></p>
+                            <h2 class="secondary text-align">Our Services</h2>
+                            <!-- <p class="primary">At KIT, our mission is to provide expertise for effectively managing the entire IT
+                                Lifecycle.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="p-4">
+                            <img src="Picture1.png" alt="" class="image">
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="p-4">
+                            <h3 class="size">Managed IT Services</h3>
+                            <p class="primary">Service Desk, Software management, O365 Support and more, we offer pain free comprehensive onboarding for customers of any size.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-4">
+                            <img src="picture2.png" alt=""
+                                style="padding: 35px; height: 170px; width: 220px; background-color: rgba(143, 131, 131, 0.363); margin: auto;">
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="p-4">
+                            <h3 class="size">Network Solutions</h3>
+                            <p class="primary">We specialize in AWS, Google, Microsoft consultancy, with proven capability to design,
+                                deploy and manage.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-4">
+                            <img src="picture3.png" alt="" class="image">
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="p-4">
+                            <h3 class="size">Project Management</h3>
+                            <p class="primary">We provide project management as a service & on project basis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contact section starts here -->
+
+            <div class="container-fluid ">
+                <div class="row bg">
+                    <div class="col-md-12">
+                        <p class="mt-5"><i>Work with us</i></p>
+                        <h2 class="mb-5 text-align">Get In Touch</h2>
+                        <p >At KIT, our entire service portfolio is shaped carefully to fit your needs,</p>
+                        <p class="mb-3">no service is too small, we provide consultancy throughout the lifecycle as a
+                            true partner</p>
+                    </div>
+
+                    <div class="d-flex flex-row px-4 justify-content-center ">
+                        <a href="https://web.facebook.com/wix?_rdc=1&_rdr" class="circle" target="_blank"><i class="bi bi-facebook " ></i></a>
+                        <a href="https://twitter.com/wix" class="circle" target="_blank"><i class="bi bi-twitter " ></i></a>
+                        <a href="https://www.linkedin.com/company/wix-com" class="circle" target="_blank"><i class="bi bi-linkedin " ></i></a>
+                    </div>
+
+                    <p>Address: Unit 20, Wellington Business Park, Crowthorne, RG45 6LS</p>
+                    <p>Phone: Tel. 0203 37288039</p>
+                    <p>Email. <a href="https://www.kit-consultancy.co.uk/" target="_blank">Contact@Kit-consultancy.co.uk</a></p>
+                    <hr style="border: 2px solid #275ed4;">
+                    <p>&copy; 2021 All Rights reserved. KIT GLOBAL CONSULTANCY LIMITED!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

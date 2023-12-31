@@ -1,0 +1,17 @@
+/* navbar */
+
+#navbar{
+    background-color: black !important; 
+     position: sticky; 
+}
+#logo{
+    width: 59px;
+    margin: 10px 34px;
+}
+
+.nav-link {
+    color: rgb(255 255 255);
+    font-family: 'Baloo Bhai', 'cursive';
+    font-size: 1.3rem;
+    padding: 3px 50px;
+}
